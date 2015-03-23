@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brokoli.mybeaconadmin" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.beacon.BeaconActivity"
+            android:label="@string/title_activity_beacon"
+            android:parentActivityName=".view.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.beacon.AddBeaconActivity"
+            android:label="@string/title_activity_add_beacon"
+            android:parentActivityName=".view.beacon.BeaconActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.beacon.BeaconActivity" />
+        </activity>
+        <activity
+            android:name=".view.gate.GateActivity"
+            android:label="@string/title_activity_gate"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.gate.AddGateActivity"
+            android:label="@string/title_activity_add_gate"
+            android:parentActivityName=".view.gate.GateActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.gate.GateActivity" />
+        </activity>
+        <activity
+            android:name=".view.user.UserActivity"
+            android:label="@string/title_activity_user"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.myobject.ObjectActivity"
+            android:label="@string/title_activity_object"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.myobject.AddObjectActivity"
+            android:label="@string/title_activity_add_object"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.user.UserActionsActivity"
+            android:label="@string/title_activity_user_actions"
+            android:parentActivityName=".view.user.UserActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.user.UserActivity" />
+        </activity>
+        <activity
+            android:name=".view.logs.LogsActivity"
+            android:label="@string/title_activity_logs"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.logs.StatsActivity"
+            android:label="@string/title_activity_stats_activity"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.realbeacon.RealBeaconActivity"
+            android:label="@string/title_activity_real_beacon"
+            android:parentActivityName=".view.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.brokoli.mybeaconadmin.view.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.brokoli.mybeaconadmin.view.MainActivity">
+
+    <item
+        android:id="@+id/menu_synchronize"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/synchronize"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_clear_all"
+          android:title="@string/menu_clear_all"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>

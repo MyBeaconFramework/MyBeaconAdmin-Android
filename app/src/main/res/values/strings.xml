@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MyBeacon Admin</string>
+    <string name="title_activity_main">MyBeacon Admin</string>
+
+    <string name="add">Adicionar</string>
+    <string name="addBeacon">Adicionar Beacon</string>
+    <string name="addGate">Adicionar Gate</string>
+    <string name="addObject">Adicionar Objeto</string>
+
+    <!-- Add Beacon-->
+    <string name="title_activity_add_beacon">@string/addBeacon</string>
+    <string name="title_activity_beacon">Beacons</string>
+    <string name="title_activity_gate">Gates</string>
+    <string name="title_activity_user">Usuários</string>
+    <string name="title_activity_add_gate">@string/addGate</string>
+    <string name="title_activity_user_actions">Ações de Usuário</string>
+    <string name="title_activity_add_object">@string/addObject</string>
+    <string name="title_activity_object">Objetos</string>
+    <string name="title_activity_logs">Logs</string>
+
+    <string name="UUID">UUID</string>
+    <string name="major">Major</string>
+    <string name="minor">Minor</string>
+    <string name="description">Descrição</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <string name="synchronize">Sincronizar</string>
+
+    <string name="addYourFirstBeacons">Adicione seus primeiros beacons usando o ícone +</string>
+    <string name="addYourFirstGates">Adicione seus primeiros gates usando o ícone +</string>
+    <string name="addYourFirstObjects">Adicione seus primeiros objetos usando o ícone +</string>
+
+    <string name="beacon">Beacon</string>
+    <string name="beaconA">Beacon A</string>
+    <string name="beaconB">Beacon B</string>
+
+    <string name="seeBeacons">Ver Beacons</string>
+    <string name="seeGates">Ver Gates</string>
+    <string name="seeObjects">Ver objetos</string>
+    <string name="seeUsers">Ver usuários</string>
+    <string name="seeLogs">Ver logs</string>
+    <string name="seeStats">Ver estatísticas</string>
+
+    <string name="mandatory">Obrigatório</string>
+
+    <string name="notFound">Não encontrado</string>
+    <string name="noUsers">Não há nenhum usuário</string>
+    <string name="noLogs">Não há nenhum log</string>
+
+    <string name="beaconType">Tipo de Beacon:</string>
+    <string name="sector">Setor</string>
+    <string name="object">Object</string>
+    <string name="gate">Gate</string>
+    <string name="gateAndSector">Gate e setor</string>
+
+    <string name="walkThroughGate">Passei pelo Gate</string>
+    <string name="walkThroughObject">Passei pelo Objeto</string>
+    <string name="beaconSetor">Setor(Beacon)</string>
+    <string name="passedBySector">Passei pelo setor</string>
+    <string name="passedByGate">Passei pelo Gate</string>
+    <string name="passedByObject">Passei pelo objeto</string>
+    <string name="title_activity_stats_activity">Estatísticas</string>
+    <string name="whereIsUser">Onde está o usuário?</string>
+    <string name="username">Nome do usuário</string>
+    <string name="find">Buscar</string>
+    <string name="whereIsObject">Onde está o objeto?</string>
+    <string name="lastSectorBeacon">Último beacon de setor:</string>
+    <string name="lastGateAndDirection">Último gate e direção:</string>
+    <string name="title_activity_real_beacon">Em tempo real…</string>
+    <string name="seeRealBeacon">Ver Beacons em tempo real</string>
+
+    <string name="notFoundRealBeacon">Não há nenhum Beacon por perto…</string>
+    <string name="obrigatorio">Obrigatório</string>
+    <string name="menu_clear_all">Limpar todos os dados locais</string>
+</resources>
